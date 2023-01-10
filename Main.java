@@ -31,7 +31,7 @@ public class Main {
 
         r3.takeBook(b2.title, b3.title, b1.title);
 
-        String[] titles = { b1.title, b2.title, b3.title };
+        String[] titles = {b1.title, b2.title, b3.title};
         r2.takeBook(r2.fullName, titles);
 
         System.out.println();
